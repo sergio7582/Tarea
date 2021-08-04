@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* No Scrollbar */
+    overflow: hidden;
+}
+
+.form-box {
+    width: 300px;
+    padding: 40px;
+    background: #1f4516;
+    text-align: center;
+}
+
+.form-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-box input[type="text"], .form-box input[type="password"], .form-box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3742aa;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus, .form-box input[type="password"]:focus {
+    width: 280px;
+    border-color: #ffff2f;
+}
+
+.form-box button[type="submit"] {
+    border: 0;
+    background: #5355ed;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #37425a;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.form-box button[type="button"] {
+    border: 0;
+    background: #5355ed;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #37425a;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+}
+.form-box button[type="button"]:hover {
+    background: none;
+}
+ .search-place input{
+  padding: 10px;
+  font-size: 15px;
+  background-color: #fefefe;
+  border:1px solid #ccc;
+  width: calc(100% - 50px);
+  font-family: 'Sen', sans-serif;
+}
+.search-place input:placeholder{
+  color: #ccc;
+}
+.btn-main{
+  padding: 10px;
+  font-size: 15px;
+  background-color: #fefefe;
+  border-style: none;
+  border:1px solid #ccc;
+  cursor: pointer;
+}
+.btn-search{
+  width: 40px;
+  color: #333;
+}
